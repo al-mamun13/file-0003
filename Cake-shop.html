@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 20px;
+        }
+        legend{
+            color:red;
+            font-size: 30px;
+            background-color: greenyellow;
+        }
+        fieldset{
+            background-color: red;
+            margin:30px;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Mamun Cake shop</h2>
+    <form>
+        <label for="name">Your Name
+            <input type="text" name="" id="name" placeholder="Your Name">
+        </label>
+
+        <label for="email">Your email
+            <input type="email" name="email" id="email" placeholder="Your Email">
+        </label>
+        <label for="phone">Your Number
+            <input type="number" name="phone" id="number" placeholder="Your Number">
+        </label>
+
+        <fieldset>
+            <legend>Pick any of One Cake</legend>
+            <label for="Chitoy">
+                <input type="radio" name="cake" id="chitoy">
+                chitoy
+            </label>
+
+            <label for="Vapa">
+                <input type="radio" name="cake" id="Vapa">
+                Vapa
+            </label>
+            <label for="Narikel">
+                <input type="radio" name="cake" id="narikel">
+                Narikel 
+            </label>
+        </fieldset>
+        <br> <br>
+        <fieldset>
+            <legend>Select one or More Vorta</legend>
+
+            <label for="sorisha">
+                <input type="checkbox" name="vorta" id="sorisha">
+                Sorisha
+            </label>
+
+            <label for="Dal">
+                <input type="checkbox" name="vorta" id="dal">
+                Dal
+            </label>
+
+            <label for="vorta">
+                <input type="checkbox" name="vorta" id="Alu">
+                Alu
+            </label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+
+
+
+    </form>
+</body>
+</html>
